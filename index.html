@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCB Hotel - Authentic Chicken Briyani</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">CCB Hotel</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                    alt="Briyani Platter">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                    alt="Delicious Chicken">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                    alt="Restaurant Ambiance">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to CCB Hotel</h1>
+            <p>Home of Authentic Chicken Briyani</p>
+            <div style="display: flex; justify-content: center;">
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-row">
+                <div class="about-img">
+                    <img src="images/backgro.jpg" alt="About CCB Hotel">
+                </div>
+                <div class="about-text-content">
+                    <h3>Where Flavor Meets Tradition</h3>
+                    <p>Welcome to CCB Hotel, where flavor meets tradition. We take immense pride in serving the most authentic and mouth-watering Chicken Briyani in town. Our chefs use a secret blend of hand-picked spices and the freshest ingredients to ensure every bite is a culinary delight. Experience the perfect harmony of taste, quality, and rich aroma that keeps our guests coming back for more.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> 100% Fresh Halal Meat</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Traditional Dum Cooking</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Premium Basmati Rice</div>
+                        <div class="highlight-item"><i class="fas fa-check-circle"></i> Handcrafted Spice Blend</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Delicious Taste</h3>
+                    <p>Authentic recipes that delight your taste buds and leave you craving for more.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Prepared daily using only the freshest and highest quality meats and spices.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tags"></i>
+                    <h3>Affordable Price</h3>
+                    <p>Premium quality food at wallet-friendly prices for everyone to enjoy.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Service</h3>
+                    <p>Quick and efficient service tailored without compromising on food quality.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Parking Available</h3>
+                    <p>Spacious and secure parking facilities available for all our customers.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Menu</h2>
+                <div class="menu-grid" id="dynamic-menu-grid">
+                <!-- Items will be fetched from API and injected here dynamically -->
+                <p style="text-align: center; width: 100%; color: #8B0000; font-weight: bold;">Loading menu from server...</p>
+            </div>    </div>
+        </section>
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 9600711165</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>ccbhotel@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Salem main road,Panjanampatti ,Tirupattur-635602</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>&copy; 2026 CCB Hotel. All rights reserved.</p>
+        </footer>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
