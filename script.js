@@ -109,7 +109,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// --- Cart Logic Removed for Showcase Mode ---
 
 const MOCK_MENU = [
     {
@@ -176,8 +175,6 @@ function renderMenu(menuItems) {
         grid.appendChild(card);
     });
 }
-
-// --- Booking Logic Removed ---
 
 // Init Page details
 fetchMenu();
